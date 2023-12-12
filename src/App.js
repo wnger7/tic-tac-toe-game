@@ -19,7 +19,7 @@ useEffect(()=>{
 }, [board])
 
 useEffect(()=>{
-  if(result.state != "none") alert(`Winner is ${player}`)
+  if(result.state !== "none") alert(`Winner is ${player}`)
   setBoard(["","","","","","","","",""])
 }, [result])
 
